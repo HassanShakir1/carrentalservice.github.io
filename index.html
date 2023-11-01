@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Car Bank</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Droid+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/321bd7016e.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section class="top">
+      <header>
+        <div class="logo">
+          <h3>Car bank</h3>
+        </div>
+        <nav id="nav">
+          <a href="#">Home</a>
+          <a href="#">About us</a>
+          <a href="#">sevices</a>
+          <a href="#">gallery</a>
+          <a href="#">contact</a>
+        </nav>
+        <div class="serch">
+          <input type="text" placeholder="Search" />
+          <i class="fas fa-search" id="search-btn" class="search"></i>
+        </div>
+        <div
+          class="fa fa-bars menu"
+          id="menu"
+          style="color: #fff"
+          class="menu"
+        ></div>
+      </header>
+      <div class="content">
+        <div class="border">
+          <div class="text">
+            <p>Sed malesuada tristique diam eget auctor</p>
+            <h3>Etiam tempor rutrum dolor</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="services">
+      <h3>Services</h3>
+    </div>
+    <section class="settings">
+      <div class="details">
+        <div class="colum-1">
+          <div class="item-1">
+            <i class="fas fa-cog custom-icon"></i>
+            <h3>LOREM IPSUM DOLOR</h3>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s.
+            </p>
+          </div>
+          <div class="item-1">
+            <i class="fas fa-cog custom-icon" style="font-size: 3rem"></i>
+            <h3>LOREM IPSUM DOLOR</h3>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s.
+            </p>
+          </div>
+        </div>
+
+        <div class="colum-2">
+          <div class="image">
+            <img src="./services1.jpg" alt="" />
+          </div>
+        </div>
+
+        <div class="colum-1">
+          <div class="item-1">
+            <i class="fas fa-wrench" style="font-size: 3rem"></i>
+            <h3>LOREM IPSUM DOLOR</h3>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s.
+            </p>
+          </div>
+
+          <div class="item-1">
+            <i class="fas fa-tasks" style="font-size: 3rem"></i>
+            <h3>LOREM IPSUM DOLOR</h3>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="a">
+      <h3>About Us</h3>
+      <div class="co">
+        <div class="con">
+          <p>
+            Duis turpis arcu, dictum eu tincidunt id, congue vel urna. Quisque
+            posuere, ipsum eu faucibus cursus, ex tortor elementum leo, eget
+            varius lorem quam a nisl. Mauris ut enim sed tortor auctor luctus at
+            vitae est.
+          </p>
+          <i
+            >Duis dignissim auctor rhoncus. Curabitur diam lorem, ultricies eu
+            pellentesque sed, elementum sodales urna. Pellentesque molestie
+            maximus nisl at ultrices.</i
+          >
+          <p><i class="fas fa-arrow-right  " style="color:  #ffa700; margin-right: .3rem;"></i> Marketing</p>
+          <p><i class="fas fa-arrow-right " style="color:  #ffa700; margin-right: .3rem;"></i> Professional Approach</p>
+          <p><i class="fas fa-arrow-right " style="color:  #ffa700; margin-right: .3rem;"></i> Production</p>
+          <p><i class="fas fa-arrow-right " style="color:  #ffa700; margin-right: .3rem;"></i> Effective Solutions</p>
+        </div>
+        <div class="vid">
+          <video
+            src="./y2mate.is - TANDEM OF DIE _ 2014 Year-End Video-73MjaGTz_qc-360p-1698759434.mp4"
+            autoplay
+            muted
+            loop
+          ></video>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      let menu = document.getElementById("menu");
+      let nav = document.getElementById("nav");
+      menu.addEventListener("click", () => {
+        menu.classList.toggle("fa-times");
+        nav.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>
