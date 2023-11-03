@@ -5,6 +5,7 @@
   box-sizing: border-box;
   text-transform: capitalize;
   text-decoration: none;
+  scroll-behavior: smooth;
 }
 html {
   font-size: 62.5%;
@@ -203,6 +204,156 @@ font-size: 2.5rem;
 .vid video{
   width: 100%;
 }
+.gallery h3{
+  text-align: center;
+  font-size: 3rem;
+  color: #ff9800;
+  margin-top: 2rem;
+}
+.gallery .box{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  margin: 15px;
+  max-width: 1200px;
+}
+.gallery .box .ite1{
+  grid-column-start: 1 ;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  max-width: 400px;
+}
+.gallery .box .ite2{
+  grid-column-start: 3 ;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  max-width: 200px;
+}
+.gallery2 .slot{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 1300px;
+  margin: 2rem auto;
+  gap: 2rem;
+}
+.gallery2 .slot .slot1{
+  flex: 1 1 28rem;
+}
+.slot1 img{
+  width: 100%;
+}
+.gallery2 .slot .slot2{
+  flex: 1 28rem;
+}
+.slot2 img{
+  width: 100%;
+}
+.gallery2 .slot .slot3{
+  flex: 1 1 28rem;
+}
+.slot3 img{
+  width: 100%;
+}
+.plot{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 1300px;
+  margin: 2rem auto;
+  gap: 2rem;
+  margin-top: -5rem;
+}
+.plot .plot1{
+  flex: 1 1 20rem;
+}
+.plot1 img{
+  width: 100%;
+}
+.plot .plot2{
+  flex: 1 1 20rem;
+}
+.plot2 img{
+  width: 100%;
+}
+.plot .plot3{
+  flex: 1 1 20rem;
+}
+.plot3 img{
+  width: 100%;
+}
+.plot .plot4{
+  flex: 1 1 20rem;
+}
+.plot4 img{
+  width: 100%;
+}
+.contact h3{
+  color: #ff9800;
+  text-align: center;
+  margin-top:3rem;
+  font-size: 3rem ;
+}
+.info{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1400px;
+  margin: 2rem auto;
+  gap: 2rem;
+}
+.info1{
+  flex: 1 1 25rem;
+  font-size: 1.6rem;
+  line-height: 5rem;
+  color: #999999;
+}
+.info1 h3{
+  color: black;
+  font-size: 2rem ;
+  text-align: left;
+
+}
+.info2{
+  flex: 1 1 25rem;
+  font-size: 2rem;
+  line-height: 6rem;
+  color: #000000;
+  font-weight: 600;
+}
+.info2 input{
+  width: 100%;
+  padding: .9rem;
+  border-color: #999999;
+  margin-top: -7rem;
+}
+.info2 button{
+  padding: 1.1rem 1.9rem;
+  font-size: 1.6rem;
+  background-color: black;
+  color: #fbfbfb;
+  transition:  0.5s ease-in-out;
+  border: none;
+}
+.info2 button:hover{
+background-color: #ff9800;
+}
+footer{
+  background-color: black;
+  color: #f5f5f5;
+  text-align: center;
+  padding:2rem;
+  font-size: 1.5rem;
+}
+footer span{
+  color: #ff9800;
+}
+.map{
+  width: 100%;
+  padding: 0;
+}
+
 
 
 
